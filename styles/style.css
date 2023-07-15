@@ -1,42 +1,42 @@
 header{
     display: flex;
     justify-content:flex-start;
-    gap: 150px;
+    gap: 120px;
     margin-top: 50px;
     margin-bottom: 70px;
 }
 .title{
     color: #000;
     font-family: 'PT Serif', serif;
-    font-size: 30px;
-    margin-left: 215px;
+    font-size: 20px;
+    margin-left: 60px;
 }
 .description-title{
     color: #000;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 .description-details{
     color: #000;
     font-family: 'poppins', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 70px;
     column-gap: 10px;
-    margin-left: 150px;
+    margin-left: 60px;
 }
 .box{
     position: relative;
     /* border: 1px solid red; */
-    height: 300px;
-    width: 220px;
-}
-.img{
     height: 250px;
     width: 180px;
+}
+.img{
+    height: 200px;
+    width: 150px;
 }
 .name{
     margin-top: 10px;
