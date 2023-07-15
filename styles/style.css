@@ -26,7 +26,7 @@ header{
     grid-template-columns: repeat(3, 1fr);
     row-gap: 70px;
     column-gap: 10px;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 .box{
     position: relative;
@@ -64,17 +64,34 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
     header{
         flex-direction: column;
         gap: 0;
+        margin-left: 20px;
     }
     .title{
         margin-left: 0;
         margin-bottom: 10px;
     }
     .container{
-        display: grid;
+        margin-left: 23px;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: -20px;
+    }
+    #box4, #box6{
+        margin-top: 80px;
+    }
+    #box5{
+        margin-top: 0;
+    }
+    .img{
+        height: 170px;
+        width: 110px;
+    }
+    .box{
+        height: 200px;
+        width: 150px;
     }
 }
+
