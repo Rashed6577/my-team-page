@@ -1,14 +1,15 @@
 header{
     display: flex;
     justify-content:flex-start;
-    gap: 200px;
+    gap: 150px;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 .title{
     color: #000;
     font-family: 'PT Serif', serif;
     font-size: 30px;
-    margin-left: 150px;
+    margin-left: 215px;
 }
 .description-title{
     color: #000;
@@ -20,3 +21,38 @@ header{
     font-family: 'poppins', sans-serif;
     font-size: 15px;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.box{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 220px;
+}
+.img{
+    height: 250px;
+    width: 180px;
+}
+.name{
+    margin-top: 10px;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+.position{
+    transform: rotate(90deg);
+    color: #000;
+    font-family: 'PT Serif';
+    font-size: 12px;
+    position: absolute;
+    top: -2px;
+    right:-7px;
+    width: max-content;
+}
+#box2, #box5{
+    margin-top: 80px;
+}
+
